@@ -1,4 +1,5 @@
 import React from 'react'
+import {IoLocationOutline} from 'react-icons/io5'
 
  const BotNavbar = () => {
   return (
@@ -100,7 +101,8 @@ import React from 'react'
 </div>
       </div>
     </nav>
-  )
+    
+  );
 };
 
 export default BotNavbar;

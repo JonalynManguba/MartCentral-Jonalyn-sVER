@@ -1,4 +1,6 @@
 import React from 'react'
+import { AiOutlineHeart, AiOutlineSearch, AiOutlineShoppingCart, AiOutlineUser, } from 'react-icons/ai'
+
 
  const Navbar = () => {
   return (
@@ -32,7 +34,7 @@ import React from 'react'
      </form>
  </div>
 </nav>
-  )
+  );
 };
 
 export default Navbar;
