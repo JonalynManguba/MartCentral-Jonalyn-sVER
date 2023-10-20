@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const BotNavbar = () => {
+ const BotNavbar = () => {
   return (
     
 <nav
@@ -101,4 +101,6 @@ export const BotNavbar = () => {
       </div>
     </nav>
   )
-}
+};
+
+export default BotNavbar;

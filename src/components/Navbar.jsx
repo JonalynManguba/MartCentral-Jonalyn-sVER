@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Navbar = () => {
+ const Navbar = () => {
   return (
     <nav   
   class=" bg-secondary py-8 h-10" >
@@ -33,4 +33,6 @@ export const Navbar = () => {
  </div>
 </nav>
   )
-}
+};
+
+export default Navbar;

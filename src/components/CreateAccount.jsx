@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {GrStorage} from 'react-icons/gr'
 
 
-const Registration = () => {
+const CreateAccount = () => {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
