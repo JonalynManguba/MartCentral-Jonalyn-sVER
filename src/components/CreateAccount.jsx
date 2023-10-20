@@ -108,4 +108,4 @@ const CreateAccount = () => {
   );
 };
 
-export default Registration;
+export default CreateAccount;
