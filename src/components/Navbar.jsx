@@ -1,14 +1,14 @@
-import React from 'react'
+import {RxDividerVertical} from 'react-icons/rx'
 import { AiOutlineHeart, AiOutlineSearch, AiOutlineShoppingCart, AiOutlineUser, } from 'react-icons/ai'
 
 
  const Navbar = () => {
   return (
     <nav   
-  class=" bg-secondary py-8 h-10" >
- <div class="container sm:flex justify between items-center -mt-4">
+  className=" bg-secondary py-8 h-10" >
+ <div className="container sm:flex justify between items-center -mt-4">
   
-   <div class="font-bold text-2xl text-center pb-4 sm:pb-0 text-black">
+   <div className="font-bold text-2xl text-center pb-4 sm:pb-0 text-black">
      MART CENTRAL
      </div>
 

@@ -1,8 +1,11 @@
-import React from 'react'
+import {AiOutlineFacebook, AiOutlineInstagram} from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <div class="flex items-end w-full min-h-screen bg-white">
+    
+<div class="flex items-end w-full min-h-screen bg-white">
+
+    <div className="flex items-end w-full min-h-screen bg-primary">
 <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h3 className="text-lg sm:text-xl font-bold">Customer Service</h3>
@@ -73,6 +76,7 @@ const Footer = () => {
               </a>
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram text-2xl hover:text-pink-500"></i>
+              <AiOutlineInstagram/>
             </a>
             <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github text-2xl hover:text-gray-600"></i>
@@ -100,6 +104,7 @@ const Footer = () => {
             />
           </div>
         </div>
+      </div>
       </div>
       </div>
   )
