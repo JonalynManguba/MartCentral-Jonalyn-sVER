@@ -3,7 +3,7 @@ import {IoLocationOutline} from 'react-icons/io5'
 
  const BotNavbar = () => {
   return (
-    
+    <>
 <nav
     className="relative flex w-full items-center justify-between h-[32px] bg-primary py-2 text-neutral-600 shadow-lg dark:text-neutral-300 dark:shadow-black/5 lg:flex-wrap lg:justify-start"
     data-te-botnav-ref>
@@ -101,7 +101,7 @@ import {IoLocationOutline} from 'react-icons/io5'
 </div>
       </div>
     </nav>
-    
+    </>
   );
 };
 
