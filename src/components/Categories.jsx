@@ -2,18 +2,25 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+const images1 = "src/assets/grocery.png"
+const images2= "src/assets/hoodie.png"
+const images3= "src/assets/flower.png"
+const images4= "src/assets/xmas.png"
+const images5= "src/assets/pan.png"
+const images6= "src/assets/candles.png"
+
 
 const Categories = () => {
   const categories = [
     {
       id: 1,
       name: 'Grocery & Essentials',
-      image: 'grocery.png',
+      image: {images1},
     },
     {
       id: 2,
       name: 'Furnitures',
-      image: './assets/furnitures.png',
+      image: 'furnitures.png',
     },
     {
       id: 3,
